@@ -187,7 +187,7 @@
 }
 
 .pokemon .additional-info {
-    display: contents;
+    display: none;
     position: absolute;
     top: 0;
     left: 0;
@@ -200,5 +200,5 @@
 }
 
 .pokemon:hover .additional-info {
-    display: contents;
+    display: block;
 }
